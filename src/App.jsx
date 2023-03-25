@@ -16,11 +16,11 @@ function App() {
     <div className="flex flex-col w-full h-full bg-gradient-to-b from-pink-200 to-slate-200 text-slate-800">
       <Navbar />
 
-      <div className="mb-4">
+      <div className="">
         <Top contactClick={() => handleContactClick()} />
       </div>
 
-      <div className="block lg:hidden mb-2">
+      <div className="block lg:hidden">
         <Aboutus />
       </div>
 
