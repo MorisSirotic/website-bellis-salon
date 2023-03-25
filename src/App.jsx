@@ -32,7 +32,7 @@ function App() {
         <Services />
       </div>
       <div className="flex text-sm self-center text-center p-2">
-        Dvojno iskazivanje cijena prema fiksnom tečaju 1 euro = 7,53450 kuna.
+        Dvojno iskazivanje cijena prema fiksnom tečaju <br/>  1 euro = 7,53450 kuna.
       </div>
       <div id="contact" className="mt-0" ref={myRef}>
         <Contact />
