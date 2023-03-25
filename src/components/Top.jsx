@@ -2,9 +2,6 @@ import woman from "../data/woman.png";
 import { Aboutus } from "./AboutUs";
 
 export const Top = (props) => {
-
-
-
   return (
     <div className="flex flex-col-reverse sm:flex-row">
       <div className="flex flex-col max-w-screen-lg ">
@@ -19,12 +16,12 @@ export const Top = (props) => {
 
         <div className=" text-slate-600 mt-4 ml-7 sm:max-w-[250px] md:max-w-[500px]">
           <h1 className="text-6xl">
-            All for the sake of your <span className="text-white">beauty</span>
+           Sve za dobrobit Vaše <span className="text-white">ljepote</span>
           </h1>
         </div>
 
         <div className="mt-6 ml-4 sm:self-start">
-          <button onClick={props.contactClick} className="bg-black text-white p-4 rounded-3xl w-52">
+          <button onClick={props.contactClick} className="bg-black text-white p-4 rounded-3xl w-52 hover:bg-pin">
             Book Now
           </button>
         </div>

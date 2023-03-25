@@ -2,7 +2,7 @@ import { FullService } from "./FullService";
 
 export const Services = (props) => {
   return (
-    <div className="flex flex-col bg-gradient-to-l  from-pink-200 to-slate-200 p-4">
+    <div className="flex flex-col  p-4 w-full">
       {/* Kratka - left */}
       <FullService
         num="1"

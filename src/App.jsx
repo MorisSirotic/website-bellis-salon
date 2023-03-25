@@ -28,7 +28,7 @@ function App() {
         <Intro />
       </div>
 
-      <div className="mt-0">
+      <div className="flex w-full mt-0 self-center  max-w-3xl">
         <Services />
       </div>
 

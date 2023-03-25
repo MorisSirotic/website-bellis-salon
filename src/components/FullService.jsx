@@ -1,16 +1,16 @@
 export const FullService = (props) => {
   return (
-    <div className="flex flex-col text-center w-full border-b-2 border-b-gray-400">
+    <div className="flex flex-col text-center w-full border-b-2 border-b-gray-400 ">
       <h1 className="text-2xl mb-4 font-bold">
         {props.num} {props.title}
       </h1>
-      <div className="flex justify-between">
+      <div className="flex justify-between ">
         <h2 className="text-md">{props.hair1 ? props.hair1 : "Kratka"}</h2>
         <h2 className="text-md">{props.hair2 ? props.hair2 : "Srednja"}</h2>
         <h2 className="text-md">{props.hair3 ? props.hair3 : "Duga"}</h2>
       </div>
 
-      <div className="flex justify-between mb-4">
+      <div className="flex justify-between mb-4 ">
         {props.prices.map((item, index) => {
           if (index === 2) {
             return (
