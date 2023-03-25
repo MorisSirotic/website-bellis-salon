@@ -21,7 +21,7 @@ export const Top = (props) => {
         </div>
 
         <div className="mt-6 ml-4 sm:self-start">
-          <button onClick={props.contactClick} className="bg-black text-white p-4 rounded-3xl w-52 hover:bg-pin">
+          <button onClick={props.contactClick} className="bg-black text-white p-4 rounded-3xl w-52 hover:bg-pink-500">
             Book Now
           </button>
         </div>
