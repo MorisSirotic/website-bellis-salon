@@ -5,10 +5,11 @@ import { Intro } from "./components/Intro";
 import { Navbar } from "./components/Navbar";
 import { Services } from "./components/Services";
 import { Top } from "./components/Top";
+import { useLanguage } from "./data/LanguageContext";
 
 function App() {
   const myRef = useRef(null);
-
+  const {lang} = useLanguage();
   const handleContactClick = (e) => {
     myRef.current.scrollIntoView({ behavior: "smooth" });
   };
@@ -32,7 +33,7 @@ function App() {
         <Services />
       </div>
       <div className="flex text-sm self-center text-center p-2">
-        Dvojno iskazivanje cijena prema fiksnom tečaju <br/>  1 euro = 7,53450 kuna.
+      {lang.ord23} <br/>  1 euro = 7,53450 kuna.
       </div>
       <div id="contact" className="mt-0" ref={myRef}>
         <Contact />
