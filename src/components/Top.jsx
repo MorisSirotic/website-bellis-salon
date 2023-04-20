@@ -4,9 +4,8 @@ import woman from "../data/woman.png";
 import { Aboutus } from "./AboutUs";
 
 export const Top = (props) => {
+  const { lang } = useLanguage();
 
-  const {lang} = useLanguage();
-  
   return (
     <div className="flex flex-col-reverse sm:flex-row">
       <div className="flex flex-col max-w-screen-lg ">
@@ -14,12 +13,11 @@ export const Top = (props) => {
           <div className="flex">
             <span className="text-center w-16 h-1 bg-gray-600 self-center mr-3 ml-8"></span>
             <span className="whitespace-nowrap">{lang.ord1}, Umag</span>
-          
           </div>
 
           <div className=" text-slate-600 mt-4 ml-7 sm:max-w-[250px] md:max-w-[500px]">
             <h1 className="text-6xl">
-            {lang.ord2} <span className="text-white">{lang.ord2_1}</span>
+              {lang.ord2} <span className="text-white">{lang.ord2_1}</span>
             </h1>
           </div>
 
@@ -28,9 +26,8 @@ export const Top = (props) => {
               onClick={props.contactClick}
               className="bg-black text-white p-4 rounded-3xl w-52 hover:bg-pink-500"
             >
-             {lang.ord3}
+              {lang.ord3}
             </button>
-           
           </div>
         </div>
 

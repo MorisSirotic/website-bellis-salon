@@ -1,10 +1,10 @@
-import React from 'react';
-import { Croatian, English } from './Languages';
+import React from "react";
+import { Croatian } from "./Languages";
 
 const LanguageContext = React.createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [lang, setLang] = React.useState(English);
+  const [lang, setLang] = React.useState(Croatian);
 
   const updateLanguage = (language) => {
     setLang(language);

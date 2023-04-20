@@ -95,17 +95,3 @@ export const Services = (props) => {
     </div>
   );
 };
-
-const Service = (props) => {
-  const { name, price, img } = props;
-
-  return (
-    <div className="flex w-36 flex-col m-1 text-center">
-      <div className="h-36 w-36">
-        <img src={img} />
-      </div>
-      <span className="">{name}</span>
-      <span>{price}</span>
-    </div>
-  );
-};
