@@ -36,7 +36,7 @@ export const Croatian = {
     ord1: "Hrvatska",
     ord2: "Sve za dobrobit Vaše",
     ord2_1: "ljepote",
-    ord3: "Naruči Se",
+    ord3: "Naruči se",
     ord4: "O Meni",
     ord5: "Pozdrav, ja sam Dolores - profesionalna frizerka sa preko 30 godina iskustva u frizerskoj industriji, usavršila sam moje znjanje u širokom asortimanu najsuvremenijih vještina i stilova",
     ord6: "Moje Usluge",
